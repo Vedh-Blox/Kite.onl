@@ -12,5 +12,3 @@ try:
     print("Opening Discord...")
 except Exception as e:
     print(f"Could not open Discord. Error: {e}")
-Or Paste this in your windows powershell
-Start-Process "$env:LocalAppData\Discord\Update.exe" -ArgumentList "--processStart Discord.exe"
